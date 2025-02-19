@@ -17,6 +17,7 @@ This project predicts the likelihood of road accidents based on various factors 
 - **Deployment**: Pickle, Flask
 
 📊 Model Performance
+
 S.No     Algorithm       Accuracy
 
 1.      Random Forest	    85%
