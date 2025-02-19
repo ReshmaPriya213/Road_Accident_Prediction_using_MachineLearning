@@ -1,0 +1,26 @@
+<style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .feature {
+            flex: 1 0 45%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        /* Add 16px of horizontal space between features */
+        .feature + .feature {
+            margin-left: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .feature {
+                flex: 100%;
+                margin-left: 0;
+            }
+        }
+    </style>
